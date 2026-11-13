@@ -29,21 +29,24 @@
 
 # ---------------------------------------------------------
 
-name = input ('Enter employee name: ')
+name = input('Enter employee name: ')
 score = int(input('Enter performance score: '))
 
 if score >= 90:
-    category = 'Outstanding'
+    rating = 'Outstanding'
 elif score >= 80:
-    category = 'Exceeds Expecations'
+
+    rating = 'Exceeds Expecations'
 elif score >= 70:
-    category = 'Meets Expectations'
+
+    rating = 'Meets Expectations'
 elif score >= 60:
-    category = 'Below Expectation'
+
+    rating = 'Below Expectation'
 else:
-    category = 'Unsatisfactory'
+    rating = 'Unsatisfactory'
 
 print (f'Employee Name: {name}')
 print (f'Performance Score: {score}')
-print (f'Rating: {category}')
+print (f'Rating: {rating}')
 
