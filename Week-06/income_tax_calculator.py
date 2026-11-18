@@ -23,13 +23,13 @@ print('------------------------------------------\n')
 
 print('INCOME TAX SUMMARY')
 print('-------------------------------------------')
-print(f'Gross Income: ${gross_income}')
-print(f'Standard Deduction: ${standard_deduction}')
-print(f'Dependent Deduction: ${dependent_deduction}')
-print(f'Total Deductions: ${total_deductions}')
-print(f'Taxable Income: ${taxable_income}')
+print(f'Gross Income: ${gross_income:,.2f}')
+print(f'Standard Deduction: ${standard_deduction:,.2f}')
+print(f'Dependent Deduction: ${dependent_deduction:,.2f}')
+print(f'Total Deductions: ${total_deductions:,.2f}')
+print(f'Taxable Income: ${taxable_income:,.2f}')
 print(f'Tax Rate: {tax_rate * 100}%')
-print(f'Estimated Income Tax: ${income_tax}')
+print(f'Estimated Income Tax: ${income_tax:,.2f}')
 
 # REFLECTION QUESTIONS
 # --------------------
